@@ -30,6 +30,8 @@ my $builder = Module::Build->new(
 		'Crypt::CBC' => 0,
         'Crypt::Blowfish' => 0,
 
+		# Padre::Plugin::HTML::Export
+		'Syntax::Highlight::Engine::Kate' => 0,
 
         # Padre::Plugin::InstallPARDist',
         'ExtUtils::InferConfig'   => '0.02',
@@ -47,6 +49,10 @@ my $builder = Module::Build->new(
 
 		# Padre::Plugin::Pip 0.13
         'pip'                     => '0.13',
+
+		# Padre::Plugin::Tidy
+		'XML::Tidy'  => 0,
+        'HTML::Tidy' => 0,
 
 		# Padre::Plugin::Validator 0.02
 		'XML::XPath'                       => 0,
