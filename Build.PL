@@ -30,7 +30,7 @@ my $builder = Module::Build->new(
 		'Crypt::CBC' => 0,
         'Crypt::Blowfish' => 0,
 
-		# Padre::Plugin::HTML::Export
+		# Padre::Plugin::HTMLExport
 		'Syntax::Highlight::Engine::Kate' => 0,
 
         # Padre::Plugin::InstallPARDist',
