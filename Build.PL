@@ -22,6 +22,9 @@ my $builder = Module::Build->new(
 
 		# Padre::Plugin::AcmePlayCode   0.02,
 		'Acme::PlayCode' => 0,
+		
+		# Padre::Plugin::Alarm
+		'Audio::Beep'    => 0,
 
 		# Padre::Plugin::CPAN 0.03
 		'CPAN'           => 0,
