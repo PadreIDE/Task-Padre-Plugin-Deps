@@ -6,7 +6,7 @@ author   'Gabor Szabo';
 license  'perl';
 
 homepage       'http://padre.perlide.org/';
-repository     'http://svn.perlide.org/padre/trunk/Task-Padre-Plugin-Deps/';
+repository     'https://github.com/PadreIDE/Task-Padre-Plugin-Deps/';
 
 requires 'Padre'                   => '0.21';
 
